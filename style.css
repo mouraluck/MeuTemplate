@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    
+
 
 }
 
@@ -17,7 +17,7 @@ body {
     font-family: 'Marcellus', Roboto Slab;
 }
 
-#showcase-container a{
+#showcase-container a {
     display: inline-block;
     padding: 15px 60px;
     font-size: 1.1rem;
@@ -46,33 +46,35 @@ body {
     text-align: center;
     padding-bottom: 50px;
     letter-spacing: 2px;
-color: #fcb47c;
+    color: #fcb47c;
 }
+
 ::-webkit-scrollbar {
-    width: 10px; /* largura da barra de rolagem */
-  }
-  
-  /* Cor de fundo da barra de rolagem */
-  ::-webkit-scrollbar-track {
+    width: 10px;
+    /* largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
     background: #fcb47c;
-    
-  }
-  
-  /* Cor da barra de rolagem */
-  ::-webkit-scrollbar-thumb {
+
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
     background: #1c2444;
-  }
-  
-  /* Mudando a cor da barra de rolagem quando hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Mudando a cor da barra de rolagem quando hover */
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
 #navbar {
     width: 100%;
     background-color: #1c2444;
     color: #fcb47c;
-    height: 80px;
+    height: 55px;
     position: fixed;
 }
 
@@ -81,7 +83,7 @@ color: #fcb47c;
     height: 100%;
     margin: auto;
     display: flex;
-    justify-items: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -89,7 +91,6 @@ color: #fcb47c;
     display: flex;
     list-style: none;
     text-transform: uppercase;
-
 }
 
 #navbar-items li {
@@ -171,7 +172,7 @@ color: #fcb47c;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
-    
+
 }
 
 #testimonials {
@@ -187,7 +188,7 @@ color: #fcb47c;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 
 }
 
@@ -197,20 +198,20 @@ color: #fcb47c;
     border-radius: 50%;
     margin: 15px 0;
     padding: 15px;
-    
+
 }
 
 #galeria {
     width: 100%;
     margin: auto;
-    
+
     background: #1c2444;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 #galeria-container {
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -222,6 +223,7 @@ color: #fcb47c;
     height: auto;
     border-radius: 5px;
 }
+
 #footer {
     background: #222;
     color: #eee;
