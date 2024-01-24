@@ -7,6 +7,9 @@
 
 
 }
+.headline {
+visibility: hidden;
+}
 
 a {
     text-decoration: none;
@@ -15,6 +18,7 @@ a {
 
 body {
     font-family: 'Marcellus', Roboto Slab;
+    background: #1c2444;
 }
 
 #showcase-container a {
@@ -104,7 +108,7 @@ body {
     align-items: center;
     color: #eee;
     background: url('img/fundoday.jpeg') no-repeat center center/cover;
-
+    visibility: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: color
 }
@@ -127,6 +131,7 @@ body {
     background: #1c2444;
     color: #000;
     padding: 50px;
+    visibility: hidden;
 }
 
 #clients-container {
@@ -134,6 +139,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     padding: 15px;
+    
 }
 
 .clients {
@@ -204,7 +210,7 @@ body {
 #galeria {
     width: 100%;
     margin: auto;
-
+    visibility: hidden;
     background: #1c2444;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -222,6 +228,13 @@ body {
     width: 85%;
     height: auto;
     border-radius: 5px;
+    cursor: pointer;
+}
+.galeria-image:hover {
+    transition: 200ms;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
 }
 
 #footer {

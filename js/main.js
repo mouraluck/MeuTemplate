@@ -22,3 +22,8 @@ window.addEventListener("scroll", function () {
         document.querySelector("#navbar").style.opacity = 1;
     }
 });
+window.sr = ScrollReveal({ reset: true});
+sr.reveal('.headline', {duration: 1000});
+sr.reveal('#clients', {duration: 1000});
+sr.reveal('#galeria', {duration: 1000});
+sr.reveal('#showcase', {duration: 500});
